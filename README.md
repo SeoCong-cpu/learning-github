@@ -73,32 +73,31 @@ Get help: [Post in our discussion board](https://github.com/orgs/skills/discussi
 
 
 
-
-# My Project Plan (Level 1 Heading)
-
-***note:*** THis document is written merely as an illustrative example, and does not provide any working guide to an actual project.
-
-### Proposal (Level 3 Heading)
+# My Project Plan (Level 1 Heading)<!--Heading level 1-->
+<!--Paragraphs-->
+***Note:***<!--Bold and Italic--> This document is written merely as an illustrative example, and does not provide any working guide to an actual project.
+<!--Paragraphs-->
+### Proposal (Level 3 Heading)<!--Heading level 3-->
 ---
-I am planning to make a computer vision software that detects objects in images.
-In order to build it, I will use opencv, deep learning libraries, such as [TensorFlow](https://www.tensorflow.org/?hl=ko) or [PyTorch](https://pytorch.org), and other open source softwares.
-
-For example, the objects in the following images were detected using [mmdetection](https://github.com/open-mmlab/mmdetection):
-
-![Images](https://user-images.githubusercontent.com/12907710/137271636-56ba1cd2-b110-4812-8221-b4c120320aa9.png)
-
+I am planning to make a computer vision software that detects objects in images.  
+<!--Line Breaks-->In order to build it, I will use opencv, deep learning libraries, such as [TensorFlow](https://www.tensorflow.org/?hl=ko) or [PyTorch](https://pytorch.org), and other open source softwares.<!--Links-->
+<!--Paragraphs-->
+For example, the objects in the following images were detected using [mmdetection](https://github.com/open-mmlab/mmdetection):<!--Links-->
+<!--Paragraphs-->
+![Images](https://user-images.githubusercontent.com/12907710/137271636-56ba1cd2-b110-4812-8221-b4c120320aa9.png)<!--Images-->
+<!--Paragraphs-->
 ---
-### Dependencies (Level 3 Heading)
+### Dependencies (Level 3 Heading)<!--Heading level 3-->
 - python
 - opencv-python
 - tensorflow
 - openmmlab
 - package manager
-
-### Installation
-
-In a bash terminal, run the following commands (*Do NOT actually run these commands in your computer*):
-
+<!--Unordered Lists-->
+### Installation<!--Heading level 3-->
+<!--Paragraphs-->
+In a bash terminal, run the following commands (*Do NOT actually run these commands in your computer*):<!--Italic-->
+<!--Paragraphs-->
 ```sh
 $ sudo apt update
 $ conda create -n cv_detection
@@ -106,3 +105,4 @@ $ conda activate cv_detection
 $ python --version
 $ python example.py
 ```
+<!--Shell Commands-->
